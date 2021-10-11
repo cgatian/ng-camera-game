@@ -6,7 +6,7 @@
     <span>
         <ul *ngFor="let picColor of picColors; let i = index;">
             <li>
-                <mat-slide-toggle [color]="primaryThemeColor" [checked]="picColor.Enabled"></mat-slide-toggle>
+                <mat-slide-toggle [color]="primaryThemeColor" [checked]="picColorStates[i].Enabled"></mat-slide-toggle>
                 <span>
                     <app-pic-color-canvas [(PicColor)]="picColors[i]"></app-pic-color-canvas>
                 </span>

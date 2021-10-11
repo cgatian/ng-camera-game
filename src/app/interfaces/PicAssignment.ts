@@ -1,7 +1,7 @@
-import { PicColorState } from "./PicColorState";
+import { PicColor } from "./PicColor";
 
 export interface PicAssignment {
     PicNumber: number;
-    Color: PicColorState;
+    Color: PicColor;
     Score?: number;
 }

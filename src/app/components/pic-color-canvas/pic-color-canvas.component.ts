@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { PicColorState } from 'src/app/interfaces/PicColorState';
+import { PicColor } from 'src/app/interfaces/PicColor';
 import { OptionsService } from 'src/app/services/options-service';
 
 @Component({
@@ -9,8 +9,8 @@ import { OptionsService } from 'src/app/services/options-service';
 })
 export class PicColorCanvasComponent implements OnInit {
 
-  @Input() PicColor! : PicColorState;
-  @Output() PicColorChange = new EventEmitter<PicColorState>();
+  @Input() PicColor! : PicColor;
+  @Output() PicColorChange = new EventEmitter<PicColor>();
 
   constructor(private optionsService: OptionsService) {
   }

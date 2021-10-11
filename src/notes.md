@@ -4,4 +4,5 @@ https://gist.github.com/ryancat/9972419b2a78f329ce3aebb7f1a09152
 
 Current Implementation Notes:
 PicAssignment - composed of the (assigned) PicColorState, the "round" of the assignment (ex. 3 of 8), and a score
-PicColorState - composed of a label (name) of a color, (color) value and an enabled boolean
+PicColor - composed of a label (name) of a color, (color) value
+PicColorState - composed of a PicColor and an enabled boolean
