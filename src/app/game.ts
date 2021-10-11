@@ -18,6 +18,7 @@ export class Game {
         let picRGB = RGBFromString(picSet.Value);
 
         let distance = calculateRGBColorDistance(color, picRGB);
-        this.notificationService.showNotificationMessage(`distance=${distance}`);
+        //this.notificationService.showSimpleNotificationMessage(`distance=${distance}`);
+        this.notificationService.showPicResultNotification();
     }
 }
