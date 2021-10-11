@@ -1,7 +1,7 @@
-import { PicColorState } from "./interfaces/PicColorState";
-import { RGB } from "./interfaces/RGB";
-import { NotificationService } from "./services/notification-service";
-import { calculateRGBColorDistance, RGBFromString } from "./utils";
+import { PicColorState } from "../interfaces/PicColorState";
+import { RGB } from "../interfaces/RGB";
+import { NotificationService } from "../services/notification-service";
+import { calculateRGBColorDistance, RGBFromString } from "../utils";
 
 /*
  * A Game is composed of a set of picSets the player must match.

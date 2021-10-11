@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, BehaviorSubject } from 'rxjs';
 import { PhotoService } from 'src/app/services/photo-service';
-import { PicSet } from 'src/app/interfaces/PicSet';
 
 @Component({
   selector: 'app-photo-reel',
