@@ -15,6 +15,7 @@ import { TitleComponent } from './components/title/title.component';
 import { PhotoReelComponent } from './components/photo-reel/photo-reel.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PicResultViewerComponent } from './pic-result-viewer/pic-result-viewer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ScoreboardComponent,
     PicColorCanvasComponent,
     TitleComponent,
-    PhotoReelComponent
+    PhotoReelComponent,
+    PicResultViewerComponent
   ],
   imports: [
     BrowserModule,
