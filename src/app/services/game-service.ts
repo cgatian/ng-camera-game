@@ -4,7 +4,7 @@ import { OptionsService } from './options-service';
 import { PicColorState } from '../interfaces/PicColorState';
 import { RGB } from '../interfaces/RGB';
 import { RGBFromString, calculateRGBColorDistance } from '../utils';
-import { Game } from '../game';
+import { Game } from '../classes/game';
 import { NotificationService } from './notification-service';
 
 @Injectable({
